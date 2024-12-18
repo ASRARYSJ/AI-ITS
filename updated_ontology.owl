@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:ns1="http://example.org/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://example.org/John">
+    <rdf:type rdf:resource="http://example.org/Student"/>
+    <rdfs:label>John</rdfs:label>
+    <ns1:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</ns1:age>
+  </rdf:Description>
+</rdf:RDF>
